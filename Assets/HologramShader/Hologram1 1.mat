@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hologram3
+  m_Name: Hologram1 1
   m_Shader: {fileID: -6465566751694194690, guid: 3bde6f78b46a947429b471fbb3093e63, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -89,7 +89,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _BackColorAlpha: -2.19
+    - _BackColorAlpha: -1.19
     - _BackgroundColorAlpha: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -124,13 +124,13 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BackColor: {r: 0, g: 1, b: 0.9683142, a: 1}
+    - _BackColor: {r: 1, g: 0.48905075, b: 0, a: 1}
     - _BackgroundColor: {r: 1, g: 0, b: 0.8838954, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Base_Color: {r: 0, g: 0.32197475, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fresnel_Color: {r: 8, g: 8, b: 8, a: 1}
+    - _Fresnel_Color: {r: 0, g: 7.999999, b: 5.721893, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Texture_Tiling: {r: 1, g: 3, b: 0, a: 0}
   m_BuildTextureStacks: []

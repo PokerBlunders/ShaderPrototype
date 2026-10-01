@@ -120,9 +120,9 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Glitch_bias: 0.291
+    - _Glitch_bias: 0.628
     - _Glitch_size: 1000
-    - _Glitch_strength: 0.04
+    - _Glitch_strength: 0.34
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
