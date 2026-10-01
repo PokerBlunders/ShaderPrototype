@@ -120,9 +120,9 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Glitch_bias: 0
+    - _Glitch_bias: 0.291
     - _Glitch_size: 1000
-    - _Glitch_strength: 0.02
+    - _Glitch_strength: 0.04
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -132,7 +132,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Screen_resolution: 50
+    - _Screen_resolution: 10
     - _Smoothness: 0.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
