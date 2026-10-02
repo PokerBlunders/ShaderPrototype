@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: neon
-  m_Shader: {fileID: -6465566751694194690, guid: 7e2e1772890db94419fd27008d1d7017, type: 3}
+  m_Name: etchedbase
+  m_Shader: {fileID: -6465566751694194690, guid: 5342ef9481023324c9db36fce550c858, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,8 +24,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlternateEtchNormal:
+        m_Texture: {fileID: 2800000, guid: 3713f855df389b7428272a2ec0670f44, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlternateEtchTexture:
+        m_Texture: {fileID: 2800000, guid: efa3dfe154afebd428861c96a1ebdfc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EtchNormalMap:
+        m_Texture: {fileID: 2800000, guid: 13712d4e3de397f4c820df7cfacd7cc3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _PatternTexture:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: ffb74a93f1c6a6a48805d9297d1bb8e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -42,19 +54,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EmissionStrength: 5.58
-    - _PatternStrength: 0.44
+    - _AlternateEtchChance: 0.5
+    - _EmissionStrength: 0.1
+    - _EtchDepth: 3
+    - _Metallic: 0.1
+    - _PatternStrength: 0.061
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RandomAmount: 6.6
-    - _TextureScale: 1.13
+    - _RandomAmount: 4.6
+    - _ScaleVariation: 0.45
+    - _Smoothness: 0.1
+    - _TextureScale: 0.47
     m_Colors:
-    - _AlternateColor: {r: 1, g: 0.43867922, b: 0.7451472, a: 1}
+    - _AlternateColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
-    - _PatternColor: {r: 0, g: 0.88817024, b: 1, a: 1}
+    - _PatternColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4845274862021463445
+--- !u!114 &1504375032521273342
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
