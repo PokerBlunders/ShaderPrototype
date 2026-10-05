@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PixelFilterTest/PixelFilterScene.unity
-    guid: bcc571f7ffb27c644b9b3b5148b7620e
+    path: Assets/Prototypes/!EnvironmentTest/EnvironmentTest.unity
+    guid: 456645388f32085449d306b263e97c46
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
